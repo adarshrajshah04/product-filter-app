@@ -39,6 +39,7 @@ input{
 .right{
     width: 75%;
     border: 2px solid black;
+    overflow: hidden;
     
 }
 .cards{
