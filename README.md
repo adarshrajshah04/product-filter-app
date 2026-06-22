@@ -88,4 +88,4 @@ Through this project, I practiced:
 
 Adarshraj Shah
 
-B.Sc Information Technology Student | Frontend Developer | Java & JavaScript Enthusiast
+git add .
