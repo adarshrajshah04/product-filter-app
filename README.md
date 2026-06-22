@@ -1,17 +1,26 @@
-# Product Filter App
+# 🛍️ Product Filter App
 
-A dynamic E-commerce Product Filtering Application built using **HTML, CSS, and JavaScript**. The application fetches product data from the DummyJSON API and allows users to browse and filter products based on different criteria.
+A dynamic E-commerce Product Filtering Application built using **HTML, CSS, and JavaScript**. This project fetches product data from the DummyJSON API and allows users to browse, search, and filter products based on category, price, and rating.
+
+## 🌐 Live Demo
+
+🔗 https://product-filter-application.netlify.app/
+
+---
 
 ## 🚀 Features
 
-* Display all products from the API
+* Display all products dynamically from the API
 * Filter products with price up to $100
 * Search products by category
 * Filter products by rating range
 * Dynamic product card generation
-* Responsive card layout
+* Responsive product layout
 * Product image, title, category, description, rating, and price display
-* Clean and user-friendly interface
+* Interactive UI with hover effects
+* Real-time filtering using JavaScript
+
+---
 
 ## 🛠️ Technologies Used
 
@@ -21,10 +30,13 @@ A dynamic E-commerce Product Filtering Application built using **HTML, CSS, and 
 * Fetch API
 * DummyJSON API
 
+---
+
 ## 📸 Project Preview
 
 ![alt text](image.png)
 
+---
 
 ## 📂 Project Structure
 
@@ -34,63 +46,75 @@ product-filter-app/
 ├── index.html
 ├── style.css
 ├── script.js
+├── image.png
 └── README.md
 ```
 
+---
+
 ## 🔗 API Used
 
-DummyJSON Products API:
+DummyJSON Products API
 
 ```text
 https://dummyjson.com/products
 ```
 
-## ⚙️ How to Run
+---
 
-1. Clone the repository
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/product-filter-app.git
+git clone https://github.com/adarshrajshah04/product-filter-app.git
 ```
 
-2. Open the project folder
+### 2. Navigate to the Project Folder
 
 ```bash
 cd product-filter-app
 ```
 
-3. Open `index.html` in your browser
+### 3. Run the Project
 
-No additional installation is required.
+Simply open `index.html` in your browser.
 
+---
 
-## Live Demo
-
-```bash
-Live Website: https://product-filter-application.netlify.app/```
-
-## 🎯 Learning Outcomes
+## 🎯 What I Learned
 
 Through this project, I practiced:
 
 * API Integration using Fetch API
 * DOM Manipulation
-* Event Handling
 * Dynamic UI Rendering
-* Array Methods (map, filter)
-* Responsive Layout Design
+* Event Handling
+* Array Methods (`map()`, `filter()`)
+* Responsive Web Design
 * JavaScript Project Structure
+* Working with External APIs
+
+---
 
 ## 🔮 Future Improvements
 
-* Add to Cart functionality
+* Add To Cart functionality
 * Product Sorting (Low to High / High to Low)
 * Search by Product Name
 * Pagination
 * Dark Mode
 * Product Details Page
+* Wishlist Feature
+
+---
 
 ## 👨‍💻 Author
 
-Adarshraj Shah
+**Adarshraj Shah**
 
+GitHub: https://github.com/adarshrajshah04
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
