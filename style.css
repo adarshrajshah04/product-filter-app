@@ -49,6 +49,7 @@ input{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-bottom: 60px;
 }
 
 .cards::-webkit-scrollbar{
@@ -98,7 +99,7 @@ input{
     width: 90%;
     height: 200px;
     /* border: 2px solid; */
-    object-fit: cover;
+    object-fit: contain;
     background-position: center;
 
 }
@@ -126,3 +127,77 @@ input{
     box-shadow: 0px 0px 20px royalblue;
     transform: scale(95%);
 }
+
+/* Tablet */
+@media (min-width:430px) and (max-width: 1024px)  {
+    .left {
+        width: 30%;
+        padding: 20px;
+        background-color: red;
+    }
+
+    .right {
+        width: 67%;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .left button,
+    .left input {
+        font-size: 14px;
+    }
+}
+
+
+@media  (min-width: 0px) and (max-width: 430px) {
+    .main {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-bottom: 2px solid black;
+    }
+
+    .right {
+        width: 100%;
+        border: none;
+    }
+
+    .cards {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .card {
+        width: 95%;
+        max-width: 350px;
+        margin: 15px 0;
+    }
+
+    button,
+    input {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    #res {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .image {
+        height: 180px;
+        
+    }
+}
+
+
+
